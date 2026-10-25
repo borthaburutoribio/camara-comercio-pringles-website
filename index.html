@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="es-AR" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ACI Pringles · Asociación del Comercio y la Industria de Coronel Pringles</title>
+<meta name="description" content="La cámara de comercio de Coronel Pringles desde 1947: guía de comercios por rubro con mapa, beneficios para socios, promos, Galpón en la Exposición Rural y cómo asociarse. Mitre 957.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#7a1f24">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<meta property="og:title" content="Asociación del Comercio y la Industria de Coronel Pringles">
+<meta property="og:description" content="Buscá un comercio de Pringles por rubro, mirá qué hace la ACI y asociá tu comercio por $2.000 al mes.">
+<meta property="og:image" content="assets/img/galpon-aci-exposicion-rural-2026.webp">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="preload" as="image" href="assets/img/galpon-aci-exposicion-rural-2026-ancho.webp">
+<link rel="stylesheet" href="styles.css?v=5">
+<script>document.documentElement.classList.remove("no-js")</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Asociación del Comercio y la Industria de Coronel Pringles",
+  "alternateName": ["ACI Pringles", "Cámara de Comercio e Industria de Coronel Pringles"],
+  "foundingDate": "1947-04-16",
+  "taxID": "30-56238093-7",
+  "telephone": "+54 2922 46-3194",
+  "logo": "assets/img/logo-aci-coronel-pringles.png",
+  "address": {"@type": "PostalAddress", "streetAddress": "Bartolomé Mitre 957", "postalCode": "B7530AMS", "addressLocality": "Coronel Pringles", "addressRegion": "Provincia de Buenos Aires", "addressCountry": "AR"},
+  "location": {"@type": "Place", "geo": {"@type": "GeoCoordinates", "latitude": -37.9859684, "longitude": -61.353491}},
+  "memberOf": [{"@type": "Organization", "name": "Federación Económica de la Provincia de Buenos Aires (FEBA)"}],
+  "sameAs": ["https://www.instagram.com/aci_pringles/", "https://www.facebook.com/AsociacionComercioeIndustriaCoronelPringles"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "¿Cuánto cuesta asociarse a la ACI?", "acceptedAnswer": {"@type": "Answer", "text": "La cuota es de $2.000 por mes (valor de agosto de 2026). Se completa la planilla en Mitre 957 o se manda la ficha desde esta página."}},
+    {"@type": "Question", "name": "¿Quién se puede asociar?", "acceptedAnswer": {"@type": "Answer", "text": "Comercios, industrias y prestadores de servicios del partido de Coronel Pringles, de cualquier tamaño: desde un emprendimiento que vende por Instagram hasta una fábrica."}},
+    {"@type": "Question", "name": "¿Cómo funcionó la promo del Día de la Niñez?", "acceptedAnswer": {"@type": "Answer", "text": "Los socios retiraban talonarios en la sede y daban un cupón por cada compra. El sorteo fue el viernes 29 de agosto de 2026, con órdenes de compra de $100.000, $50.000 y $50.000."}},
+    {"@type": "Question", "name": "¿Cómo consigo un lugar en el Galpón de la Exposición Rural?", "acceptedAnswer": {"@type": "Answer", "text": "En 2026 la ACI ocupó un galpón en la 80ª Exposición Rural (17 y 18 de octubre). Los lugares se pedían a los teléfonos 291-4423407 y 291-4377908."}},
+    {"@type": "Question", "name": "¿Dónde me entero de las novedades?", "acceptedAnswer": {"@type": "Answer", "text": "En el canal de información de WhatsApp de la ACI y en Instagram, @aci_pringles."}},
+    {"@type": "Question", "name": "¿La Asociación es la Cámara de Comercio de Pringles?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Los diarios la nombran Cámara de Comercio e Industria de Coronel Pringles. El nombre legal es Asociación del Comercio y la Industria de Coronel Pringles (ACI)."}}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#guia">Ir a la guía de comercios</a>
+
+<header class="bar" id="bar">
+  <a class="bar__brand" href="#inicio" aria-label="ACI Pringles, inicio">
+    <img src="assets/img/logo-aci-coronel-pringles.png" width="479" height="480" alt="">
+    <span>ACI Pringles</span>
+  </a>
+  <nav class="bar__nav" id="menu" aria-label="Secciones">
+    <a href="#guia">Guía de comercios</a>
+    <a href="#que-hacemos">Qué hacemos</a>
+    <a href="#socios">Beneficios</a>
+    <a href="#historia">Historia</a>
+    <a href="#contacto">Contacto</a>
+    <a class="btn btn--menu" href="#asociate">Asociate</a>
+  </nav>
+  <a class="btn bar__cta" href="#asociate">Asociate</a>
+  <button class="bar__toggle" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+</header>
+
+<main>
+
+<!-- HERO: tres copias colgadas de una misma línea -->
+<section class="hero" id="inicio">
+  <h1 class="hero__title reveal">El comercio de Pringles, desde 1947</h1>
+  <div class="hero__side">
+    <figure class="hero__small reveal">
+      <img src="assets/img/equipo-aci-en-la-sede-mitre-957.webp" width="900" height="900" alt="Integrantes de la ACI en la sede, el día del sorteo del Galpón de la Rural, con el escudo en la pared">
+    </figure>
+    <p class="hero__lead reveal">Somos la Asociación del Comercio y la Industria. Comercios, fábricas y servicios del partido, juntos en Mitre 957.</p>
+    <div class="hero__actions reveal">
+      <a class="btn" href="#asociate">Asociá tu comercio</a>
+      <a class="link" href="#guia">Buscar un comercio</a>
+    </div>
+  </div>
+  <figure class="hero__main shutter">
+    <img src="assets/img/galpon-aci-exposicion-rural-2026-ancho.webp" width="1200" height="750" alt="Mesa de la ACI en el Galpón Comercial de la Exposición Rural, con el mantel blanco y el escudo bordó de la Asociación">
+    <figcaption>El Galpón Comercial de la ACI en la 80ª Exposición Rural, octubre de 2026.</figcaption>
+  </figure>
+  <!-- A CONFIRMAR: horario. La bio de IG dice 8 a 15 h; la promo de agosto 2026 dice 9 a 14 h -->
+  <ul class="hero__facts reveal" aria-label="En resumen">
+    <li><span>Sede</span> Mitre 957</li>
+    <li><span>Atención</span> lunes a viernes, 8 a 15 h</li>
+    <li><span>Teléfono</span> <a href="tel:+542922463194">02922 46-3194</a></li>
+    <li><span>Cuota</span> $2.000 por mes</li>
+  </ul>
+</section>
+
+<!-- INTRO: una frase fija mientras pasan fotos de la ciudad -->
+<section class="intro" aria-label="Quiénes somos">
+  <div class="intro__pin">
+    <p class="intro__sentence">Desde 1947 juntamos a los que levantan la persiana todos los días en Pringles.</p>
+  </div>
+  <div class="intro__photos">
+    <figure class="intro__a">
+      <img src="assets/img/teatro-espanol-calle-stegmann.webp" width="1000" height="1250" loading="lazy" alt="Fachada blanca del Teatro Español sobre la calle Stegmann">
+      <figcaption>Teatro Español, sobre Stegmann, la calle de varias vidrieras de esta guía.</figcaption>
+    </figure>
+    <figure class="intro__b">
+      <img src="assets/img/matadero-salamone-coronel-pringles-1940.webp" width="1600" height="1000" loading="lazy" alt="Foto de archivo en blanco y negro del matadero municipal de Coronel Pringles hacia 1940, con su torre en forma de cuchilla">
+      <figcaption>El matadero municipal de Salamone hacia 1940, siete años antes de que naciera la ACI. Archivo General de la Nación.</figcaption>
+    </figure>
+    <figure class="intro__c">
+      <img src="assets/img/estacion-pringles-ferrocarril-sud.webp" width="1000" height="1000" loading="lazy" alt="Cartel de la estación Pringles del Ferrocarril Sud junto al andén">
+      <figcaption>Estación Pringles del Ferrocarril Sud.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- GUÍA DE COMERCIOS: la pieza principal -->
+<section class="guia" id="guia" aria-labelledby="guia-t">
+  <div class="guia__head">
+    <h2 id="guia-t" class="reveal">Buscá un comercio de Pringles</h2>
+    <p class="reveal">Escribí qué necesitás o tocá un rubro: la lista y el mapa se achican solos. Cada comercio tiene su Instagram y cómo llegar.</p>
+  </div>
+
+  <div class="guia__tools reveal">
+    <label class="guia__search">
+      <span class="sr-only">Buscar por nombre, rubro o calle</span>
+      <input id="q" type="search" placeholder="Probá con pastas, regalos o Stegmann" autocomplete="off">
+    </label>
+    <div class="guia__chips" role="group" aria-label="Filtrar por rubro">
+      <button type="button" class="chip is-on" data-r="todos" aria-pressed="true">Todos</button>
+      <button type="button" class="chip" data-r="alimentos" aria-pressed="false">Comer y tomar</button>
+      <button type="button" class="chip" data-r="hogar" aria-pressed="false">Casa y regalos</button>
+      <button type="button" class="chip" data-r="moda" aria-pressed="false">Moda y belleza</button>
+      <button type="button" class="chip" data-r="servicios" aria-pressed="false">Servicios y librería</button>
+    </div>
+  </div>
+
+  <div class="guia__body">
+    <div class="guia__map-wrap">
+      <div id="mapa" class="guia__map" role="region" aria-label="Mapa de comercios de Coronel Pringles"></div>
+    </div>
+
+    <div class="guia__list">
+      <p class="guia__count" id="count" aria-live="polite">15 comercios</p>
+      <!-- Muestra armada con comercios que participaron en acciones de la ACI. A CONFIRMAR: reemplazar por el padrón de socios que pase la Asociación -->
+      <ul id="lista">
+        <li class="shop" data-r="alimentos" data-lat="-37.9877629" data-lng="-61.3541723">
+          <p class="shop__rubro">Vinoteca</p>
+          <h3>Tío Baco</h3>
+          <p class="shop__dir">Belgrano 502 · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/tiobaco/" rel="noopener" target="_blank">Instagram</a> <a href="https://www.google.com/maps/search/?api=1&query=Belgrano+502+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="alimentos" data-lat="-37.9858279" data-lng="-61.3547648">
+          <p class="shop__rubro">Fábrica de pastas</p>
+          <h3>La Genovesa</h3>
+          <p class="shop__dir">Stegmann 682 · fábrica familiar fundada por inmigrantes italianos</p>
+          <p class="shop__links"><a href="https://www.instagram.com/genovesapringles/" rel="noopener" target="_blank">Instagram</a> <a href="https://www.google.com/maps/search/?api=1&query=Stegmann+682+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="alimentos" data-lat="-37.9745528" data-lng="-61.3540061">
+          <p class="shop__rubro">Pastelería sin gluten</p>
+          <h3>Manjares</h3>
+          <p class="shop__dir">Machado 1695 · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/manjaresingluten_/" rel="noopener" target="_blank">Instagram</a> <a href="https://www.google.com/maps/search/?api=1&query=Machado+1695+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="alimentos" data-lat="-37.9878045" data-lng="-61.3538146">
+          <p class="shop__rubro">Pollería</p>
+          <h3>Luisfe</h3>
+          <p class="shop__dir">Leandro N. Alem 807 · local nuevo, octubre de 2026</p>
+          <p class="shop__links"><a href="https://www.google.com/maps/search/?api=1&query=Leandro+N.+Alem+807+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="alimentos">
+          <p class="shop__rubro">Chocolates artesanales</p>
+          <h3>Baracoa</h3>
+          <p class="shop__dir">Pedidos por Instagram · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/baracoa03/" rel="noopener" target="_blank">Instagram</a></p>
+        </li>
+        <li class="shop" data-r="alimentos">
+          <p class="shop__rubro">Heladería</p>
+          <h3>La Central</h3>
+          <p class="shop__dir">70 años de helado artesanal, familia Gelso-Matamoros</p>
+          <p class="shop__links"><a href="https://www.instagram.com/heladerialacentral/" rel="noopener" target="_blank">Instagram</a></p>
+        </li>
+        <li class="shop" data-r="hogar" data-lat="-37.9846628" data-lng="-61.356206">
+          <p class="shop__rubro">Regalos</p>
+          <h3>Doble Pique</h3>
+          <p class="shop__dir">Stegmann 834 · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/doblepiqueshop/" rel="noopener" target="_blank">Instagram</a> <a href="https://www.google.com/maps/search/?api=1&query=Stegmann+834+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="hogar" data-lat="-37.9832" data-lng="-61.3580389">
+          <p class="shop__rubro">Artículos para el hogar</p>
+          <h3>Eugenio V</h3>
+          <p class="shop__dir">Stegmann 1032 · primer premio del concurso de vidrieras 2016</p>
+          <p class="shop__links"><a href="https://www.google.com/maps/search/?api=1&query=Stegmann+1032+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="hogar" data-lat="-37.984252" data-lng="-61.3474678">
+          <p class="shop__rubro">Pinturería y cielorrasos</p>
+          <h3>Pinturería Guarco</h3>
+          <p class="shop__dir">Colón 1393 · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/cielorrasospintureriaguarco/" rel="noopener" target="_blank">Instagram</a> <a href="https://www.google.com/maps/search/?api=1&query=Colon+1393+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="hogar">
+          <p class="shop__rubro">Cerámica</p>
+          <h3>Paegua</h3>
+          <p class="shop__dir">Taller de cerámica · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/paeguapringles/" rel="noopener" target="_blank">Instagram</a></p>
+        </li>
+        <li class="shop" data-r="hogar">
+          <p class="shop__rubro">Velas y aromas</p>
+          <h3>Malena</h3>
+          <p class="shop__dir">Velas hechas en Pringles · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/malena_pringles/" rel="noopener" target="_blank">Instagram</a></p>
+        </li>
+        <li class="shop" data-r="moda" data-lat="-37.9810892" data-lng="-61.3455938">
+          <p class="shop__rubro">Marroquinería</p>
+          <h3>Peumaguen</h3>
+          <p class="shop__dir">Pastor Newton 503 · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://peumaguenmarroquineria.empretienda.com.ar/" rel="noopener" target="_blank">Tienda online</a> <a href="https://www.google.com/maps/search/?api=1&query=Pastor+Newton+503+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="moda">
+          <p class="shop__rubro">Maquillaje y accesorios</p>
+          <h3>Coquette</h3>
+          <p class="shop__dir">Belleza personal · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.instagram.com/coquette.coronelpringles/" rel="noopener" target="_blank">Instagram</a></p>
+        </li>
+        <li class="shop" data-r="servicios" data-lat="-37.9832123" data-lng="-61.356208">
+          <p class="shop__rubro">Agencia de viajes</p>
+          <h3>Grupales</h3>
+          <p class="shop__dir">San Martín 934 · estuvo en el Galpón de la Rural</p>
+          <p class="shop__links"><a href="https://www.google.com/maps/search/?api=1&query=San+Martin+934+Coronel+Pringles" rel="noopener" target="_blank">Cómo llegar</a></p>
+        </li>
+        <li class="shop" data-r="servicios">
+          <p class="shop__rubro">Librería y juguetería</p>
+          <h3>Librería El Ángel</h3>
+          <p class="shop__dir">Segundo premio del concurso de vidrieras 2016</p>
+          <p class="shop__links"><a href="https://www.instagram.com/libreria.el.angel.srl/" rel="noopener" target="_blank">Instagram</a></p>
+        </li>
+      </ul>
+      <p class="guia__empty" id="empty" hidden>No hay comercios cargados con eso todavía. ¿Es el tuyo? <a href="#asociate">Sumalo a la guía</a>.</p>
+      <p class="guia__note">Esta guía de muestra junta comercios que estuvieron en acciones de la ACI: el Galpón de la Exposición Rural 2026, reconocimientos y el concurso de vidrieras. La versión final se arma con el padrón completo de socios y cada uno elige qué datos mostrar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUÉ HACEMOS: foto fija y frases que se encienden de a una -->
+<section class="hacemos" id="que-hacemos" aria-labelledby="hacemos-t">
+  <div class="hacemos__stage">
+    <picture>
+      <source media="(max-width: 760px)" srcset="assets/img/avenida-25-de-mayo-palacio-municipal-movil.webp">
+      <img class="hacemos__bg" src="assets/img/avenida-25-de-mayo-palacio-municipal.webp" width="1920" height="1440" loading="lazy" alt="La torre del Palacio Municipal de Coronel Pringles vista desde la calle, con un auto estacionado">
+    </picture>
+    <div class="hacemos__scrim">
+      <h2 id="hacemos-t">Qué hace la ACI</h2>
+      <ol class="hacemos__list">
+        <li class="is-on"><strong>Lleva los reclamos al Municipio</strong><span>En agosto de 2026 le entregamos al intendente Lisandro Matzkin las propuestas de la reunión abierta del 8 de junio. Quedó armada una mesa de trabajo conjunta.</span></li>
+        <li><strong>Arma promos con sorteo</strong><span>Para el Día de la Niñez, cada socio dio cupones con sus ventas. El 29 de agosto se sorteaban $200.000 en órdenes de compra.</span></li>
+        <li><strong>Pone un galpón en la Rural</strong><span>En la 80ª Exposición Rural, el 17 y 18 de octubre, la ACI ocupó un galpón con comercios de Pringles. Los premios del sorteo los donaron ellos.</span></li>
+        <li><strong>Organiza talleres</strong><span>En abril, "De la crisis a la gestión" con Facundo Renda. En la encuesta de junio los comercios pidieron WhatsApp Business, redes e inteligencia artificial, y la ACI anunció talleres sobre eso.</span></li>
+        <li><strong>Viste vidrieras de rosa</strong><span>Más de 40 comercios se sumaron a Octubre Rosa junto con el Municipio, para recordar los controles de mama.</span></li>
+      </ol>
+    </div>
+    <div class="hacemos__pairs" aria-hidden="true">
+      <img class="pair pair--l is-on" data-i="0" src="assets/img/reunion-aci-intendente-matzkin.webp" width="768" height="960" loading="lazy" alt="">
+      <img class="pair pair--r is-on" data-i="0" src="assets/img/aci-acto-general-san-martin.webp" width="1000" height="1250" loading="lazy" alt="">
+      <img class="pair pair--l" data-i="1" src="assets/img/luisfe-local-nuevo-alem-807.webp" width="526" height="526" loading="lazy" alt="">
+      <img class="pair pair--r" data-i="1" src="assets/img/equipo-aci-en-la-sede-mitre-957.webp" width="900" height="900" loading="lazy" alt="">
+      <img class="pair pair--l" data-i="2" src="assets/img/galpon-aci-exposicion-rural-2026.webp" width="960" height="1280" loading="lazy" alt="">
+      <img class="pair pair--r" data-i="2" src="assets/img/campo-y-sierras-partido-de-coronel-pringles.webp" width="1920" height="822" loading="lazy" alt="">
+      <img class="pair pair--l" data-i="3" src="assets/img/plaza-juan-pascual-pringles.webp" width="900" height="900" loading="lazy" alt="">
+      <img class="pair pair--r" data-i="3" src="assets/img/senaletica-salamone-plaza-pringles.webp" width="900" height="1125" loading="lazy" alt="">
+      <img class="pair pair--l" data-i="4" src="assets/img/octubre-rosa-testimonio-micaela.webp" width="576" height="768" loading="lazy" alt="">
+      <img class="pair pair--r" data-i="4" src="assets/img/heladeria-la-central-70-anios.webp" width="1400" height="1050" loading="lazy" alt="">
+    </div>
+  </div>
+  <div class="hacemos__steps" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+</section>
+
+<!-- 2026 EN LA ACI: banda de paneles desparejos + agenda -->
+<section class="agenda" id="agenda" aria-labelledby="agenda-t">
+  <h2 id="agenda-t" class="reveal">El año de la ACI</h2>
+  <div class="band">
+    <figure class="band__p band__p--1">
+      <img src="assets/img/galpon-aci-exposicion-rural-2026.webp" width="960" height="1280" loading="lazy" alt="La mesa de la ACI en el Galpón Comercial de la Exposición Rural">
+      <figcaption>Galpón Comercial<br>Exposición Rural 2026</figcaption>
+    </figure>
+    <figure class="band__p band__p--2">
+      <img src="assets/img/luisfe-local-nuevo-alem-807.webp" width="526" height="526" loading="lazy" alt="Inauguración del local nuevo de Luisfe sobre Alem, con gente en la vereda">
+    </figure>
+    <figure class="band__p band__p--3">
+      <img src="assets/img/heladeria-la-central-70-anios.webp" width="1400" height="1050" loading="lazy" alt="La familia de la Heladería La Central recibe un reconocimiento por sus 70 años">
+    </figure>
+    <figure class="band__p band__p--4">
+      <img src="assets/img/reunion-aci-intendente-matzkin.webp" width="768" height="960" loading="lazy" alt="Integrantes de la ACI reunidos con el intendente en el Palacio Municipal">
+    </figure>
+  </div>
+  <p class="band__cap reveal">De izquierda a derecha: el Galpón de la Rural, el local nuevo de Luisfe, los 70 años de La Central y la reunión con el intendente.</p>
+
+  <div class="agenda__list">
+    <h3 class="reveal">Agenda</h3>
+    <ol>
+      <li class="reveal"><time datetime="2026-04-24">24 de abril</time><p>Taller "De la crisis a la gestión: el arte de navegar lo inesperado", con Facundo Renda.</p></li>
+      <li class="reveal"><time datetime="2026-06-08">8 de junio</time><p>Reunión abierta con comerciantes y encuesta al comercio local.</p></li>
+      <li class="reveal"><time datetime="2026-08">Agosto</time><p>Reunión con el intendente: mesa de trabajo conjunta Cámara y Municipio.</p></li>
+      <li class="reveal"><time datetime="2026-08-29">29 de agosto</time><p>Sorteo de la promo del Día de la Niñez.</p></li>
+      <li class="reveal"><time datetime="2026-10-17">17 y 18 de octubre</time><p>Galpón Comercial en la 80ª Exposición Rural. Sorteo el 20, a las 20:30.</p></li>
+      <li class="reveal"><time datetime="2026-10-19">19 al 23 de octubre</time><p>Semana de Octubre Rosa: vidrieras rosas y mamografías sin turno en el Hospital Municipal.</p></li>
+      <!-- A CONFIRMAR: próximas fechas (Día del Comercio, Navidad, peatonal navideña como en 2016 y 2017) -->
+      <li class="reveal is-next"><time datetime="2026-12">Diciembre</time><p>Lorem ipsum<!-- taste-skill-ignore: dato a confirmar --> dolor sit amet: próxima acción para las ventas de fin de año.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- BENEFICIOS: frase grande y tabla corrida a la derecha -->
+<section class="socios" id="socios" aria-labelledby="socios-t">
+  <h2 id="socios-t" class="reveal">Qué te da ser socio, en concreto</h2>
+  <div class="socios__grid">
+    <figure class="socios__photo reveal">
+      <img src="assets/img/aci-acto-general-san-martin.webp" width="1000" height="1250" loading="lazy" alt="Integrantes de la ACI con banderas en el acto por el General San Martín">
+    </figure>
+    <p class="socios__name">Beneficios</p>
+    <table class="socios__table">
+      <caption class="sr-only">Beneficios y costos para socios de la ACI</caption>
+      <tbody>
+        <tr><th scope="row">Cuota</th><td>Comercio, industria o servicio</td><td>$2.000 por mes</td></tr>
+        <tr><th scope="row">Promos</th><td>Talonarios para los sorteos, como el del Día de la Niñez</td><td>Solo socios</td></tr>
+        <tr><th scope="row">Rural</th><td>Lugar en el Galpón Comercial de la Exposición Rural</td><td>Consultá</td></tr>
+        <tr class="gap"><th scope="row">Talleres</th><td>Capacitaciones en la sede: gestión, redes, WhatsApp Business</td><td><!-- A CONFIRMAR: precio para socios -->Lorem ipsum<!-- taste-skill-ignore: dato a confirmar --></td></tr>
+        <tr><th scope="row">Voz</th><td>Mesa de trabajo con el Municipio, y FEBA y CAME en provincia y nación</td><td>Incluida</td></tr>
+        <tr><th scope="row">Novedades</th><td>Canal de WhatsApp con avisos para comerciantes</td><td><a href="https://chat.whatsapp.com/GtRaca8ILj4I5vrKsVB9yP" rel="noopener" target="_blank">Entrar</a></td></tr>
+        <!-- A CONFIRMAR: estos convenios figuraban en la web de 2018 y hay que ver cuáles siguen -->
+        <tr class="gap"><th scope="row">Salón</th><td>S.U.M.I. Roberto Valdemoros: 40 personas, proyector, sonido y cocina</td><td>Canon de limpieza</td></tr>
+        <tr><th scope="row">Salud</th><td>IOMA microempresarial y Swiss Medical por grupo de afinidad</td><td>A confirmar</td></tr>
+        <tr><th scope="row">Sellos</th><td>Descuento en el derecho de registro del Impuesto de Sellos</td><td>A confirmar</td></tr>
+        <tr><th scope="row">Viajes</th><td>Tarifas de hoteles FEBA en Buenos Aires</td><td>A confirmar</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- HISTORIA: el título queda fijo y pasa el libro de socios -->
+<section class="historia" id="historia" aria-labelledby="historia-t">
+  <div class="historia__pin">
+    <h2 id="historia-t">Desde 1947</h2>
+    <img src="assets/img/logo-aci-coronel-pringles.png" width="479" height="480" loading="lazy" alt="Escudo de la Asociación del Comercio y la Industria de Coronel Pringles">
+  </div>
+  <div class="historia__flow">
+    <!-- A CONFIRMAR: fecha de fundación. "Nuestro inicio" dice 16 de abril; la página Institucional vieja dice 16 de agosto -->
+    <p class="historia__lead reveal">El 16 de abril de 1947, un grupo de comerciantes se reunió en el local de Roberto Lagleyze, en Belgrano y Dorrego, y fundó la Asociación. No se juntaron por un reclamo puntual: querían que el comercio de Pringles tuviera dónde pensar el futuro.</p>
+    <figure class="historia__photo reveal">
+      <img src="assets/img/palacio-municipal-salamone-coronel-pringles.webp" width="1800" height="1125" loading="lazy" alt="Palacio Municipal de Coronel Pringles, obra de Francisco Salamone, con su torre blanca y la fuente">
+      <figcaption>Palacio Municipal de Francisco Salamone, a pocas cuadras de la sede.</figcaption>
+    </figure>
+
+    <h3 class="reveal">Los 33 socios fundadores</h3>
+    <p class="reveal">Trece de los 33 vivían de los autos: concesionarias, talleres y repuestos. El resto eran herrerías, gomerías, un molinero y hasta una fábrica de medallas.</p>
+    <details class="fundadores reveal">
+      <summary>Ver la lista completa del acta</summary>
+      <table>
+        <caption class="sr-only">Socios fundadores de 1947 y su actividad</caption>
+        <thead><tr><th scope="col">Socio</th><th scope="col">Actividad</th></tr></thead>
+        <tbody>
+          <tr><td>Roberto Lagleyze</td><td>Venta de automotores (Ford)</td></tr>
+          <tr><td>Manuel Ábalo</td><td>Venta de automotores (Chevrolet)</td></tr>
+          <tr><td>Juan de Lamadrid</td><td>Venta de automotores (Dodge)</td></tr>
+          <tr><td>Esteban Bochimuzzi</td><td>Venta de automotores (Citroën)</td></tr>
+          <tr><td>Domingo Hubert</td><td>Venta de automotores</td></tr>
+          <tr><td>Rodolfo Martínez</td><td>Automotores (Di Tella) y artículos del hogar</td></tr>
+          <tr><td>Florencio Sánchez</td><td>Taller de mecánica automotriz</td></tr>
+          <tr><td>Francisco Gruat</td><td>Taller de mecánica automotriz</td></tr>
+          <tr><td>Hugo A. Cherubini</td><td>Taller de mecánica automotriz</td></tr>
+          <tr><td>René Patrault</td><td>Taller de mecánica automotriz</td></tr>
+          <tr><td>José Braglia</td><td>Repuestos del automotor</td></tr>
+          <tr><td>Juan Amoroso</td><td>Repuestos del automotor</td></tr>
+          <tr><td>Juan Ripamonti</td><td>Repuestos del automotor</td></tr>
+          <tr><td>Alfredo Fabricio</td><td>Herrería</td></tr>
+          <tr><td>Luis Radicci</td><td>Herrería, soldadura y reparación de máquinas agrícolas</td></tr>
+          <tr><td>Carlos Krause</td><td>Tornería y soldaduras</td></tr>
+          <tr><td>Gastón A. Petón</td><td>Tornería y soldaduras</td></tr>
+          <tr><td>Ángel Abraham</td><td>Gomería</td></tr>
+          <tr><td>Juan Armendáriz</td><td>Gomería y venta de combustible</td></tr>
+          <tr><td>Aníbal Gándara</td><td>Molinero e implementos agrícolas</td></tr>
+          <tr><td>Atilio M. Crucci</td><td>Máquinas agrícolas y artículos del hogar</td></tr>
+          <tr><td>Luis Matamoros</td><td>Fábrica de tanques y molinos</td></tr>
+          <tr><td>León Bertacco</td><td>Fábrica de medallas</td></tr>
+          <tr><td>Vicente Caputi</td><td>Electricista y artículos eléctricos</td></tr>
+          <tr><td>Miguel Silva Fuentes</td><td>Seguros y servicio contable</td></tr>
+          <tr><td>Antonio Pérez</td><td rowspan="8" class="fundadores__sin">El acta no registra la actividad</td></tr>
+          <tr><td>Arnaldo Segani</td></tr>
+          <tr><td>Dionisio Jáuregui</td></tr>
+          <tr><td>Guillermo Magistralis</td></tr>
+          <tr><td>Humberto Benassi</td></tr>
+          <tr><td>Luis Torres</td></tr>
+          <tr><td>Miguel Barbieri</td></tr>
+          <tr><td>Oscar Jáuregui</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <ol class="linea">
+      <li class="reveal"><strong>1951</strong><p>Primer cambio de autoridades. Nacen las cámaras de tiendas, de almacenes y ramos generales, de talleres metalúrgicos y de carpintería.</p></li>
+      <li class="reveal"><strong>2013</strong><p>Se forma la Cámara de Quiosqueros de Coronel Pringles, dentro de la Asociación.</p></li>
+      <li class="reveal"><strong>2014</strong><p>Se forma la Cámara de Radiodifusores pringlense.</p></li>
+      <li class="reveal"><strong>2016</strong><p>4° concurso de vidrieras temáticas, "Valores para el futuro de Pringles", con escuelas y comercios en pareja.</p></li>
+      <li class="reveal"><strong>2026</strong><p>Encuesta al comercio, mesa con el Municipio y un galpón propio en la Rural.</p></li>
+    </ol>
+
+    <!-- A CONFIRMAR: comisión directiva 2025 (está en la historia destacada "Comisión 2025" de Instagram) -->
+    <div class="comision reveal">
+      <h3>Comisión directiva 2025</h3>
+      <p>Lorem ipsum<!-- taste-skill-ignore: dato a confirmar --> dolor sit amet, presidente. Lorem ipsum<!-- taste-skill-ignore: dato a confirmar -->, vicepresidente. Lorem ipsum<!-- taste-skill-ignore: dato a confirmar -->, secretaría. Lorem ipsum<!-- taste-skill-ignore: dato a confirmar -->, tesorería.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ASOCIATE + PREGUNTAS: columna de texto y foto alta -->
+<section class="asociate" id="asociate" aria-labelledby="asociate-t">
+  <div class="asociate__col">
+    <h2 id="asociate-t" class="reveal">Asociá tu comercio</h2>
+    <ul class="asociate__facts reveal">
+      <li>Mitre 957, Coronel Pringles</li>
+      <li>Lunes a viernes, de 8 a 15 h</li>
+      <li>$2.000 por mes</li>
+    </ul>
+
+    <form class="ficha reveal" id="ficha" novalidate>
+      <h3>Ficha de inscripción</h3>
+      <p class="ficha__hint">Completala y te llega lista a la oficina por WhatsApp. Si preferís, la misma planilla está en papel en la sede.</p>
+      <label>Nombre del comercio<input name="comercio" required autocomplete="organization"></label>
+      <label>Rubro<input name="rubro" required placeholder="Ej.: ferretería, peluquería, fábrica de pastas"></label>
+      <label>Responsable<input name="nombre" required autocomplete="name"></label>
+      <label>Dirección<input name="direccion" autocomplete="street-address" placeholder="Calle y número"></label>
+      <fieldset>
+        <legend>Te interesa</legend>
+        <label class="check"><input type="checkbox" name="interes" value="aparecer en la guía de comercios" checked> Aparecer en la guía</label>
+        <label class="check"><input type="checkbox" name="interes" value="las promos con sorteo"> Promos con sorteo</label>
+        <label class="check"><input type="checkbox" name="interes" value="el Galpón de la Rural"> Galpón de la Rural</label>
+        <label class="check"><input type="checkbox" name="interes" value="los talleres"> Talleres</label>
+      </fieldset>
+      <p class="ficha__err" id="ficha-err" role="alert" hidden>Faltan el nombre del comercio, el rubro y el responsable.</p>
+      <!-- A CONFIRMAR: WhatsApp de la oficina. Usamos 291-4423407, el celular que la ACI publicó para el Galpón de la Rural -->
+      <button class="btn btn--full" type="submit">Mandar la ficha por WhatsApp</button>
+    </form>
+
+    <div class="faq">
+      <h3 class="reveal">Preguntas de siempre</h3>
+      <!-- A CONFIRMAR: requisitos para asociarse según el estatuto -->
+      <details class="reveal"><summary>¿Quién se puede asociar?</summary><p>Comercios, industrias y prestadores de servicios del partido de Coronel Pringles, de cualquier tamaño: desde un emprendimiento que vende por Instagram hasta una fábrica.</p></details>
+      <details class="reveal"><summary>¿Cómo funcionó la promo del Día de la Niñez?</summary><p>Los socios retiraban talonarios en la sede y daban un cupón por cada compra. El viernes 29 de agosto se sortearon órdenes de compra de $100.000, $50.000 y $50.000 entre los clientes.</p></details>
+      <details class="reveal"><summary>¿Cómo consigo lugar en el Galpón de la Rural?</summary><p>En 2026 los lugares se pidieron al <a href="tel:+542914423407">291-4423407</a> o al <a href="tel:+542914377908">291-4377908</a>. Para la próxima Exposición Rural avisamos por el canal de WhatsApp.</p></details>
+      <details class="reveal"><summary>¿Dónde me entero de las novedades?</summary><p>En el <a href="https://chat.whatsapp.com/GtRaca8ILj4I5vrKsVB9yP" rel="noopener" target="_blank">canal de información de WhatsApp</a> y en Instagram, <a href="https://www.instagram.com/aci_pringles/" rel="noopener" target="_blank">@aci_pringles</a>.</p></details>
+      <details class="reveal"><summary>¿Puedo usar el salón de la sede?</summary><p>El S.U.M.I. Roberto Valdemoros tiene lugar para 40 personas sentadas, proyector, sonido y cocina, y es accesible. Los socios lo usan pagando el canon de limpieza.</p></details>
+      <details class="reveal"><summary>¿La Asociación es la Cámara de Comercio?</summary><p>Sí. Los diarios la nombran Cámara de Comercio e Industria de Coronel Pringles. El nombre legal es Asociación del Comercio y la Industria, ACI para los amigos.</p></details>
+    </div>
+  </div>
+  <div class="asociate__photos">
+    <figure class="asociate__tall">
+      <img src="assets/img/torre-palacio-municipal-coronel-pringles.webp" width="1100" height="1466" loading="lazy" alt="Torre del Palacio Municipal de Coronel Pringles">
+    </figure>
+    <figure class="asociate__sq">
+      <img src="assets/img/plaza-juan-pascual-pringles.webp" width="900" height="900" loading="lazy" alt="Rosales y senderos de la plaza Juan Pascual Pringles">
+    </figure>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contacto" id="contacto" aria-label="Contacto">
+  <p class="contacto__sentence reveal">Pasá por Mitre 957 con una idea para vender más o un problema con una tasa.</p>
+  <figure class="contacto__photo reveal">
+    <img src="assets/img/senaletica-salamone-plaza-pringles.webp" width="900" height="1125" loading="lazy" alt="Cartel del complejo arquitectónico Francisco Salamone en la plaza de Pringles">
+  </figure>
+  <div class="contacto__links reveal">
+    <p class="contacto__q">¿Preferís escribir?</p>
+    <a href="https://www.instagram.com/aci_pringles/" rel="noopener" target="_blank">Instagram @aci_pringles</a>
+    <a href="tel:+542922463194">Llamar al 02922 46-3194</a>
+    <p class="contacto__small">Coronel Pringles, provincia de Buenos Aires. Respondemos en horario de oficina.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie" id="pie">
+  <p class="pie__name" aria-hidden="true">ACI Pringles</p>
+  <div class="pie__row">
+    <ul class="pie__places">
+      <li><a href="https://www.google.com/maps/search/?api=1&query=Mitre+957+Coronel+Pringles" rel="noopener" target="_blank">Mitre 957</a></li>
+      <li><a href="tel:+542922463194">02922 46-3194</a></li>
+      <li><a href="https://www.instagram.com/aci_pringles/" rel="noopener" target="_blank">@aci_pringles</a></li>
+    </ul>
+    <div class="pie__cols">
+      <ul>
+        <li><a href="#guia">Guía de comercios</a></li>
+        <li><a href="#que-hacemos">Qué hacemos</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+      </ul>
+      <ul>
+        <li><a href="#socios">Beneficios</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#asociate">Asociate</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.facebook.com/AsociacionComercioeIndustriaCoronelPringles" rel="noopener" target="_blank">Facebook</a></li>
+        <li><a href="https://chat.whatsapp.com/GtRaca8ILj4I5vrKsVB9yP" rel="noopener" target="_blank">Canal de WhatsApp</a></li>
+        <li><button class="pie__share" id="share" type="button">Compartir esta página</button></li>
+      </ul>
+    </div>
+  </div>
+  <p class="pie__fed">Asociación del Comercio y la Industria de Coronel Pringles · CUIT 30-56238093-7 · Adherida a FEBA y, por ella, a CAME.</p>
+  <p class="credits">Fotos de la ciudad: <a href="https://commons.wikimedia.org/wiki/File:Palacio_Municipal_Pringles.JPG">“Palacio Municipal Pringles”</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=21669195">“Plaza Pringles, señaléctica Salamone”</a> de Erikao, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Municipalidad_Coronel_Pringles.JPG">“Municipalidad Coronel Pringles”</a> de Marcelo O. Flammini, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Pjpp.JPG">“Pjpp”</a> y <a href="https://commons.wikimedia.org/w/index.php?curid=6570864">“Mdcp”</a> de Spraydelimon, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Teatro_espanol_de_pringles.jpg">“Teatro espanol de pringles”</a> de Spraydelimon, dominio público; <a href="https://commons.wikimedia.org/wiki/File:Matadero_de_Coronel_Pringles.jpg">“Matadero de Coronel Pringles”</a>, Archivo General de la Nación, dominio público; <a href="https://commons.wikimedia.org/w/index.php?curid=56545502">“Coronel Pringles Partido”</a> de Gervacio Rosales, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Pringles_-_FCS_-_panoramio.jpg">“Estación Pringles - FCS”</a> de josecarrizo, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>; todas vía Wikimedia Commons, recortadas y con ajuste de color. Las demás fotos son de la ACI. Mapa © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+  <div class="pie__last">
+    <p>Propuesta de diseño de <a href="https://tranqueraweb.com.ar" rel="noopener" target="_blank">Tranquera Digital</a></p>
+    <a href="#inicio">Volver arriba</a>
+  </div>
+</footer>
+
+<a class="float-cta" href="#asociate">Asociate</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+<script src="script.js?v=4" defer></script>
+</body>
+</html>
